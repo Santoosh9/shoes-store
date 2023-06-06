@@ -1,7 +1,10 @@
 import React from 'react';
 
 import { heroapi, highlight, popularsales, sneaker, toprateslaes } from './data/Data';
-import { FlexContent, Hero, Sales } from './components';
+import FlexContent from './components/FlexContent';
+import Hero from './components/Hero';
+import Sales from './components/Sales';
+   
 
 const App = () => {
   return (
